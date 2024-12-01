@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/anirudhi89/nimbus/routes"
+	"github.com/anirudhi89/nimbus/internal/routes"
 	"github.com/gin-gonic/gin"
 )
 

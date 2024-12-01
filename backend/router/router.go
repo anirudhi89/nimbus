@@ -3,11 +3,9 @@ package router
 // Routes for handling different API requests
 
 import (
-	"fmt"
-
+	"github.com/anirudhi89/nimbus/internal/user"
 	"github.com/gin-gonic/gin"
 )
-
 
 func InitializeRoutes(r *gin.RouterGroup) {
 	version1 := r.Group("/v1")
